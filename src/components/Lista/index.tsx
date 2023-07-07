@@ -7,8 +7,8 @@ interface Props {
     selecionaTarefa: (tarefaSelecionada: ITarefa) => void
 }
 
-function Lista({ tarefas, selecionaTarefa }: Props) {
 
+function Lista({ tarefas, selecionaTarefa }: Props) {
     return (
         <aside className={style.listaTarefas}>
             <h2> Estudos do dia </h2>
@@ -17,13 +17,12 @@ function Lista({ tarefas, selecionaTarefa }: Props) {
                     <Item
                         selecionaTarefa={selecionaTarefa}
                         key={item.id}
-                        {...item} />
+                        {...item}
+                    />
                 ))}
-
             </ul>
-        </aside >
+        </aside>
     )
-};
+}
 
 export default Lista;
-
