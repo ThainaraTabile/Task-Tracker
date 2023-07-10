@@ -1,6 +1,6 @@
 # Task Tracker
 
-A aplicação Task Tracker é uma ferramenta desenvolvida com o framework `React`, utilizando a linguagem de programação `Typescript` e estilos personalizados com a linguagem de folhas de estilo `Syntactically Awesome Style Sheets (SASS)`.
+A aplicação Task Tracker é uma ferramenta desenvolvida com o framework `React`, utilizando a linguagem de programação `Typescript` e estilos personalizados com `Syntactically Awesome Style Sheets (SASS)`.
 
 ## Funcionalidades
 
